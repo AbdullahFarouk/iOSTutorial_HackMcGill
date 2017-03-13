@@ -2,9 +2,12 @@
 
 ### Your First iOS App 
 
-Hello, and welcome to the iOS Tutorial. Today we will be covering the basics of iOS Development and make our very own app, a Tip Calculator!
+Hello, and welcome to the iOS Tutorial. Today we will cover the basics of iOS Development and make our very own app, a Tip Calculator!
 
- In this tutorial, you will learn about using Xcode, building interfaces with auto-layout, and how to get an app running on your phone! This tutorial will assume a basic knowledge of Object Oriented programming and how some data types work in Swift. Dont worry if you are completely new to the language! Here are some resources that cover the required knowledge for this tutorial.
+ In this tutorial, you will learn about using Xcode, building interfaces with auto-layout, and how to get an app running on the built-in iPhone simulator! This tutorial will assume a basic knowledge of Object Oriented programming and how some data types work in Swift. Dont worry if you are completely new to the language! Here are some resources that cover the required knowledge for this tutorial:
+ 
+* Apple Documentation on Swift: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html
+* Tutorials Point for Swift: https://www.tutorialspoint.com/swift/
 
 ### Initial Setup ###
 
@@ -27,7 +30,7 @@ So without further ado, lets begin coding our application.
 * 9 Click Next and navigate to the place on your computer where you keep projects. Don't worry about naming the folder or anything like that, Xcode will handle it for you.
 * 10 Keep the Create Git Repository on My Mac checkbox selected, and click Create
 
-Awesome, so now you've created your first project file using XCode and our next step is to start making our Tip Calculator iOS App!
+Awesome, so now you've setup your first project file using XCode and our next step is to start making our Tip Calculator iOS App!
 
 ### Your First iOS App UI ###
 
@@ -35,9 +38,9 @@ Awesome, so now you've created your first project file using XCode and our next 
 
 So there are two different ways of designing UIs for iOS applications. You can do it programmatically with code or, you can do it graphically using the Story Board and the integrated Interface Builder. Yes, this is the tool first released in 1988 by Apple and its better than ever!
 
-The only time you would want to do your UI programmatically is when you are working on a big project and multiple changes on the Story Board can lead to merge conflicts. So keep this in mind if you are doing this at a hackathon with four other people.
+The only time you would want to do your UI programmatically is when you are working on a big project and multiple changes on the Story Board could lead to merge conflicts. So keep this in mind if you are doing this at a hackathon with four other people.
 
-Select Main.storyboard from the project navigator. Right next to the Project Navigator is the Story Baord Navigator. It lists all the screens and UI elements you currently have in your Story Board. By default you have one View Controller on the Story Board. The gray arrow right next to it indicates the initiation point of the app.
+Select Main.storyboard from the project navigator. On the right of the Project Navigator is the Story Board Navigator/Panel. It lists all the screens and UI elements you currently have in your Story Board. By default, you have one View Controller on the Story Board. The gray arrow right next to it indicates the initiation point of the app.
 
 So lets fire up the simulator and see where the app currently stands. All you can see is a blank screen which is the View Controller on the StoryBoard. Now we will proceed by adding UI components to the View Controller.
 
